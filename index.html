@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>启赋</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=640,target-densitydpi=device-dpi,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" href="css/loading.css" />
+
+
+	</head>
+
+	<body>
+		<audio id="video" src="video.mp3" preload="auto" loop="loop" autoplay="autoplay"></audio>
+		<!-- loading -->
+		<div class="loading">
+			<img src="img/logo.png" class="logo">
+			<img src="img/kuang.png" class="kuang"/>
+			<div class="loading-container">
+				<div class="loadingWrap">
+					<div class="loadingDripWrap">
+						<div class="loadingDrip1 overlay"></div>
+						<div class="loadingDrip2  z2"></div>
+					</div>
+					<div class="loadingText1"></div>
+					<div class="loadingText2 opacity0"></div>
+					<div class="loadingNob ">Loading...0%</div>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="content hidden">
+			<canvas id='canvas'></canvas>
+			<canvas id='canvas1'></canvas>
+			<div class="textPic hidden">
+				<img src="img/text.png" class="text"/>
+
+			</div>
+		</div>
+
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/pxloader-all.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/sequenceFrame.js" type="text/javascript" charset="utf-8"></script>
+
+
+</html>

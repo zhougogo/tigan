@@ -1,0 +1,50 @@
+/*通用样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: "方正正黑简体";
+	src: url("../fonts/方正正黑简体.TTF");
+}
+img{
+	display: block;
+}
+canvas{
+	position: absolute;
+	z-index: -10;
+}
+.page{
+	position: absolute;
+	width: 640px;
+	height: 1038px;
+	z-index: 1000;
+}
+.hidden{
+	display: none;
+}
+
+.page1{
+	position: absolute;
+	width: 640px;
+	height: 1038px;
+	background: url(../images/bg.png) no-repeat center center;
+}
+.content{
+	position: absolute;
+	width: 640px;
+	height: 1038px;
+	top: 0;
+}
+.content .textPic{
+	position: relative;
+	z-index: 1000;
+	top: 774px;
+	text-align: center;
+}
+.content .text{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
